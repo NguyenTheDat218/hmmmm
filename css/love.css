@@ -185,3 +185,31 @@ body {
 
 /*---------------------- footer -------------------------*/
 
+@-webkit-keyframes my {
+    0% { color: #f80ab9; } 
+    50% { color: #fff;  } 
+    100% { color: #F8CD0A;  } 
+}
+@-moz-keyframes my { 
+    0% { color: #f80ab9;  } 
+    50% { color: #fff;  }
+    100% { color: #F8CD0A;  } 
+}
+@-o-keyframes my { 
+    0% { color: #f80ab9; } 
+    50% { color: #fff; } 
+    100% { color: #F8CD0A;  } 
+}
+@keyframes my { 
+    0% { color: #f80ab9;  } 
+    50% { color: #fff;  }
+    100% { color: #F8CD0A;  } 
+} 
+.test {
+    font-size:24px;
+    font-weight:bold;
+    -webkit-animation: my 1000ms infinite;
+    -moz-animation: my 1000ms infinite; 
+    -o-animation: my 100ms infinite; 
+    animation: my 2000ms infinite;
+}

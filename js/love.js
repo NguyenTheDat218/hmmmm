@@ -135,3 +135,26 @@ window.onload = function () {
 
     }, 12000);   //gif图播放完毕所需时间为11.73s
 };
+document.addEventListener("DOMContentLoaded", function() {
+    var nameElement = document.getElementById("name");
+
+    // Ẩn phần tử trong 12 giây đầu
+    nameElement.classList.add("hidden");
+
+    // Hiển thị phần tử sau khi ẩn trong 12 giây
+    setTimeout(function() {
+        nameElement.classList.remove("hidden");
+    }, 12000); // 12 giây
+});
+document.addEventListener("DOMContentLoaded", function() {
+    var nameElement = document.getElementById("sentences");
+
+    // Ẩn phần tử trong 12 giây đầu
+    nameElement.classList.add("hidden");
+
+    // Hiển thị phần tử sau khi ẩn trong 12 giây
+    setTimeout(function() {
+        nameElement.classList.remove("hidden");
+    }, 22000); // 12 giây
+});
+
